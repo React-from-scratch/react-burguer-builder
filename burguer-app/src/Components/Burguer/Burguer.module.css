@@ -1,0 +1,22 @@
+.burguer {
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  height: 250px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+@media (min-width: 500px) {
+  .burguer{
+    width: 350px;
+    /* height: 400px; */
+  }
+}
+@media (min-width: 1000px) and (min-height: 700px) {
+  .burguer{
+    width: 700px;
+    /* height: 600px; */
+  }
+}
